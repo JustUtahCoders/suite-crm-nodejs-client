@@ -5,6 +5,14 @@
   "repository": "git@github.com:JustUtahCoders/suite-crm-nodejs-client.git",
   "type": "module",
   "author": "Joel Denning <joeldenning@gmail.com>",
+  "scripts": {
+    "format": "prettier --write lib"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "license": "MIT",
   "dependencies": {
     "btoa": "^1.2.1",
@@ -16,5 +24,9 @@
     "mkdirp": "^1.0.4",
     "node-fetch": "^2.6.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.1.0",
+    "pretty-quick": "^3.0.0"
+  }
 }
