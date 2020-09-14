@@ -22,7 +22,7 @@
     "jsdom": "^16.2.2",
     "md5": "^2.2.1",
     "mkdirp": "^1.0.4",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "husky": "^4.2.5",
