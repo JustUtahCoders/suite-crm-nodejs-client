@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "btoa": "^1.2.1",
-    "dayjs": "^1.8.28",
+    "dayjs": "^1.8.36",
     "dotenv": "^8.2.0",
     "got": "^11.3.0",
     "jsdom": "^16.2.2",
